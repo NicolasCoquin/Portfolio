@@ -1,0 +1,127 @@
+body {
+    background-color: #0D1B2A;
+  }
+
+* {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: #0D1B2A;
+}
+
+.Title, .SubTitle, h1 {
+    color: #E0E1DD;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 2em;
+}
+
+.Title {
+    font-size: 4em;
+    font-weight: 300;
+}
+
+.SubTitle {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.MainContainer {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AboutMe, .Projects, .Contact {
+}
+
+
+.AboutMe {
+    background-color: #778DA9;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.BlocksContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.SkillBlock {
+    height: 10em;
+    width: 10em;
+    background-color: #E0E1DD;
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+.BlockTitle {
+    margin-top: 1em;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.Projects {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ProjectBlock {
+    max-width: 1200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 2em;
+    background-color: #778DA9;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.ImageBlock, .DescriptionBlock {
+    border-radius: 10px;
+}
+
+.DescriptionBlock {
+    width: 650px;
+}
+
+.ImageBlock {
+    height: 400px;
+    width: 400px;
+}
+
+.center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Contact {
+    width: 100%;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.ContactBlock {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.BrightText {
+    color: #E0E1DD;
+}
+
